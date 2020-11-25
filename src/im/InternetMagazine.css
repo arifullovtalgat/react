@@ -1,0 +1,84 @@
+.header {
+    width: 1000px;
+    margin: auto;
+    background-color: aliceblue;
+}
+header .logo {
+    width: 150px;
+}
+.menu {
+    width: 310px;
+    margin: auto;
+    padding: 20px 0;
+}
+.menu a,.menu a:visited{
+    color:deepskyblue;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu li {
+    display: inline-block;
+    padding: 0 10px;
+}
+.footer {
+    width: 1000px;
+    margin: auto;
+    background-color: aliceblue;
+    color:deepskyblue;
+    height:200px;
+    position: relative;
+}
+.footer .copyright {
+    left: 20px;
+    bottom: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+}
+
+.top-products {
+    width: 1000px;
+    margin: auto;
+}
+.top-products h1 {
+    color: deepskyblue
+}
+.products {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+}
+.product {
+    height: 220px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    width: 165px;
+}
+.product a, .product a:visited {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+.product img {
+    width: 150px;
+}
+.product .add-basket {
+    width: 100%;
+    background: deepskyblue;
+    color: white;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+}
+.product span {
+    justify-content: center;
+    display: flex;
+    color: deepskyblue;
+    text-decoration: none;
+}
